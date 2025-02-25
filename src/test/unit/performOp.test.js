@@ -6,6 +6,5 @@ vi.mock('./performOp', () => ({
 }))
 
 it('tests performOp module', () => {
-  const adder = performOp
-  expect(adder(1, 2)).toBe(5)
+  expect(performOp(1, 2)).toBe(5)
 })
