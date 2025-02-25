@@ -8,9 +8,9 @@ Currently, two official plugins are available:
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
 # Test Reproduction
-- `npm install`
-- `npm run test:browser`
-- observe error output and reported lines
-- comment out lines 4-6 in `src/test/unit/performOp.test.js`
-- `npm run test:browser`
-- observe error output is now accurate
+1. `npm install`
+2. `npm run test:browser`
+3.  observe error output and reported lines
+4. comment out lines 4-6 in `src/test/unit/performOp.test.js`
+5. `npm run test:browser`
+6. observe error output is now accurate
